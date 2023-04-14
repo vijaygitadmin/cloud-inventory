@@ -1,0 +1,29 @@
+release:
+  prerelease: false
+
+builds:
+  - binary: cloud-inventory
+    env:
+      - TOP=0
+    goos:
+      - windows
+      - darwin
+      - linux
+      - freebsd 
+    goarch:
+      - amd64
+      - arm64
+      - arm
+
+# brews:
+#   - github:
+#       owner: msfidelis
+#       name: homebrew-cloud-inventory
+#     homepage: "https://github.com/msfidelis/cloud-inventory/"
+#     description: "Validate SSL around web :spider:"
+
+archives:
+  - format: binary
+    format_overrides:
+      - goos: windows
+        format: zip
