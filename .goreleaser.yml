@@ -21,6 +21,12 @@ builds:
 #       name: homebrew-cloud-inventory
 #     homepage: "https://github.com/msfidelis/cloud-inventory/"
 #     description: "Validate SSL around web :spider:"
+brews:
+   - github:
+       owner: vijaygitadmin
+       name: vijaygitadmin-cloud-inventory
+     homepage: "https://github.com/vijaygitadmin/cloud-inventory/"
+     description: "Validate SSL around web :spider:"
 
 archives:
   - format: binary
