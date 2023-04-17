@@ -1,4 +1,4 @@
-module github.com/msfidelis/cloud-inventory
+module github.com/vijaygitadmin/cloud-inventory
 
 go 1.16
 
