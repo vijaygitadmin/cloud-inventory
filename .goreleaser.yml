@@ -20,7 +20,7 @@ builds:
 #       owner: msfidelis
 #       name: homebrew-cloud-inventory
 #     homepage: "https://github.com/msfidelis/cloud-inventory/"
-#     description: "Validate SSL around web :spider:"
+###     description: "Validate SSL around web :spider:"
 
 archives:
   - format: binary
